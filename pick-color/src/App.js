@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Input from './Input';
+import Square from './Square';
 
 function App() {
   return (
     <div className='App'>
-      <h2>Hello..Color picker App.</h2>
+      <Square />
+      <Input />
     </div>
   );
 }
